@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- HDMI -->
+    <Preference
+        android:key="pref_key_hdmi"
+        android:title="@string/hdmi" 
+        android:summary=""
+        android:fragment="com.android.settings.HdmiSettings"/>
+    
+    <!-- DP -->
+    <Preference
+        android:key="pref_key_dp"
+        android:title="@string/dp" 
+        android:summary=""
+        android:fragment="com.android.settings.HdmiSettingsOne"/>
+
+</PreferenceScreen>
